@@ -1,0 +1,51 @@
+Documentation for the Builder component:
+
+Installation
+
+<Builder options={options}/>
+
+the component takes one prop, which is the options object.
+
+The options object has the following structure:
+
+options = {
+  boatName: 'boat name', // String for boat name
+  bases: { // the base pictures for side view and interior view.. images must be the SAME SIZE
+    1: { // side pov
+      1: IMG URL STRING, // 1 is the main picture layer
+      2: IMG URL STRING, // 2 is the layer used for changing colors must be PNG. All non transparent pixels will be recolored
+    },
+    2: { // interior pov
+      1: IMG URL STRING, // same as above
+      2: IMG URL STRING,
+    }
+  },
+  power: { // Power options
+    thumbnails: false, // True if using 64x64 thumbnails for options
+    items: [ // Array of options to list.. If selected, options are identified by their index... so option one is 0.. and so on when selected
+      {
+        name: '500HP', // option name
+        thumb: IMG URL STRING, // only used if thumbnails is true above
+        price: Number
+      },
+      {
+        name:'725HP' // can provide item name only
+        price: Number
+      }
+    ]
+  },
+  packages: { // same as above
+    thumbnails: false,
+    items: []
+  }, // same as above
+  cockpit: {
+    thumbnails: false,
+    items: []
+  }, // same as above
+  tower: {
+    thumbnails: false,
+    items: []
+  },
+  hullPrice: Number,
+  intPrice: Number,
+};
