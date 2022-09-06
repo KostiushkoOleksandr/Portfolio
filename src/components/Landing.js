@@ -10,7 +10,6 @@ import Skills from './Skills';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import './Landing.css';
-import Sidebar from './Sidebar';
 
 const styles = theme => ({
   root: {
@@ -53,7 +52,8 @@ class Landing extends Component {
             </Slide>
             <Slide left>
               <Typography align="center" type="subheading" gutterBottom>
-              Я розробляю, будую, керую та підтримую веб-додатки.
+              Розробник React.js з доведеним досвідом у розробці програмних продуктів.
+              Завжди зосереджений на досягненні цілей та досягнення успіху в швидко розвиваючих та динамічних середовищах.
               </Typography>
               <Typography align="center" type="subheading" paragraph gutterBottom>Стек технологій з якими працюю: React.js,
                 Node.js,
@@ -69,8 +69,18 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <Slide left>
-              <Typography type="display2" gutterBottom>
-              Навчання
+              {/* <div className='hero'>
+          <div className='static-txt'></div>
+          <ul className='dynamic-txts'>
+            <li><span>По всіх питаннях писати в</span></li>
+            <li><span>Телеграм</span></li>
+            <li><span>На пошту</span></li>
+            <li><span>Та Work.ua</span></li>
+          </ul>
+
+        </div> */}
+              <Typography type="display1" gutterBottom>
+              Навчання/Досвід
               </Typography>
             </Slide>
           </Grid>
@@ -86,7 +96,7 @@ class Landing extends Component {
           </Grid>
           <Grid item>
             <Slide left>
-              <Typography type="display2" gutterBottom>
+              <Typography type="display1" gutterBottom>
                 Навички
               </Typography>
             </Slide>

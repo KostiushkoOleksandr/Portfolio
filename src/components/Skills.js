@@ -30,6 +30,8 @@ class Skills extends React.Component {
       { key: 6, label: 'Express' },
       { key: 7, label: 'CSS' },
       { key: 8, label: 'Communication' },
+      { key: 9, label: 'Figma' },
+
 
     ],
   };

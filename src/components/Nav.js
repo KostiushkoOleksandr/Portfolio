@@ -4,16 +4,18 @@ import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
-import Button from 'material-ui/Button';
+// import Button from 'material-ui/Button';
 import { withRouter } from 'react-router-dom';
 import Hidden from 'material-ui/Hidden';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Drawer from 'material-ui/Drawer';
-import List, { ListItem } from 'material-ui/List';
-import Divider from 'material-ui/Divider';
+// import List, { ListItem } from 'material-ui/List';
+// import Divider from 'material-ui/Divider';
 import LaptopChromebookIcon from 'material-ui-icons/LaptopChromebook';
 import './Nav.css';
+import Grid from 'material-ui/Grid';
+
 
 const styles = theme => ({
   root: {
@@ -23,7 +25,7 @@ const styles = theme => ({
     flex: 1,
   },
   LaptopChromebookIcon: {
-    marginLeft: -5,
+    marginLeft: 5,
     marginRight: 20,
   }
 });
@@ -57,7 +59,7 @@ class Nav extends Component {
               </IconButton>
               <Typography onTouchTap={() => this.props.history.push('/')} type="title" color="inherit"
                 className={classes.typography}>
-                Олександр Костюшко
+                Oleksandr Kostiushko
               </Typography>
             </Toolbar>
           </AppBar>
@@ -68,19 +70,28 @@ class Nav extends Component {
               onClick={() => this.handleDrawerClose()}
               onKeyDown={() => this.handleDrawerClose()}
             >
-              <List>
-                <ListItem>
-                  <Button onTouchTap={() => this.props.history.push('/')} color="inherit">Головна</Button>
-                </ListItem>
-                <Divider />
-                <ListItem>
-                  <Button onTouchTap={() => this.props.history.push('/projects')} color="inherit">Роботи</Button>
-                </ListItem>
-                <Divider />
-                <ListItem>
-                  <Button href="https://github.com/KostiushkoOleksandr" color="inherit">Гіт Хаб</Button>
-                </ListItem>
-              </List>
+              <Grid item>
+                <div className="footer-social-networks">
+                  <a href="https://www.instagram.com/alexkost_/">
+                    <i
+                      className="fa fa-instagram footer-social-icons"
+                      aria-hidden="true"
+                    >
+                      {' '}
+                    </i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/oleksandr-kostiushko-591677222/">
+                    <i className="fa fa-linkedin-square footer-social-icons" aria-hidden="true">
+                      {' '}
+                    </i>
+                  </a>
+                  <a href="https://t.me/A1exKost">
+                    <i className="fa fa-phone-square footer-social-icons" aria-hidden="true">
+                      {' '}
+                    </i>
+                  </a>
+                </div>
+              </Grid>
             </div>
           </Drawer>
         </Hidden>
@@ -90,26 +101,36 @@ class Nav extends Component {
               <LaptopChromebookIcon className={classes.LaptopChromebookIcon} />
               <Typography onTouchTap={() => this.props.history.push('/')} type="title" color="inherit"
                 className={classes.typography}>
-                Олександр Костюшко
+                Oleksandr Kostiushko
               </Typography>
-              {/* <div className='hero'>
-          <div className='static-txt'></div>
-          <ul className='dynamic-txts'>
-            <li><span>По всіх питаннях писати в</span></li>
-            <li><span>Телеграм</span></li>
-            <li><span>На пошту</span></li>
-            <li><span>Та Work.ua</span></li>
-          </ul>
-
-        </div> */}
-              <Button onTouchTap={() => this.props.history.push('/')} color="inherit">Головна</Button>
-              <Button href="https://github.com/KostiushkoOleksandr" color="inherit">Гіт Хаб</Button>
-
+              <Grid item>
+                <div className="footer-social-networks">
+                  <a href="https://www.instagram.com/alexkost_/">
+                    <i
+                      className="fa fa-instagram footer-social-icons"
+                      aria-hidden="true"
+                    >
+                      {' '}
+                    </i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/oleksandr-kostiushko-591677222/">
+                    <i className="fa fa-linkedin-square footer-social-icons" aria-hidden="true">
+                      {' '}
+                    </i>
+                  </a>
+                  <a href="https://t.me/A1exKost">
+                    <i className="fa fa-phone-square footer-social-icons" aria-hidden="true">
+                      {' '}
+                    </i>
+                  </a>
+                </div>
+              </Grid>
+              {/* <Button onTouchTap={() => this.props.history.push('/')} color="inherit">Головна</Button>
+              <Button href="https://github.com/KostiushkoOleksandr" color="inherit">Гіт Хаб</Button> */}
             </Toolbar>
           </AppBar>
         </Hidden>
       </div>
-
     );
   }
 }

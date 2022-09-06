@@ -17,7 +17,7 @@ function ProjectCard(props) {
   const {classes} = props;
   return (
     <Grid container spacing={24} alignContent='center' alignItems='center' justify='center'>
-      <Grid item xs={6}>
+      <Grid item xs={3}>
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
@@ -31,7 +31,22 @@ function ProjectCard(props) {
           </CardContent>
         </Card>
       </Grid>
+      <Grid item xs={3}>
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography type="headline" component="h2">
+            Robocode
+            </Typography>
+            <Typography component="p">
+            2021 – 2021<br/>
+            В компанії Robocode вивчав нейронні мережі, викладав архітектуру комп'ютера.
+            
+            </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
     </Grid>
+    
   );
 }
 
