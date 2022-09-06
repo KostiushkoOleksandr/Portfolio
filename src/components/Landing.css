@@ -1,5 +1,5 @@
 body{
-    --bg-clr: rgb(102, 90, 214);
+    --bg-clr: #37639e;
     background-color: var(--bg-clr);
 }
 
@@ -20,7 +20,7 @@ body{
     inset: -15px;
     border: 6px solid var(--bg-clr);
     border-top-color: #fff;
-    border-bottom-color: #ababab;
+    border-bottom-color: #fff;
     border-radius: 50%;
     z-index: -1;
     animation:spin 3s linear infinite;

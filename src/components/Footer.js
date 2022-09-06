@@ -3,6 +3,7 @@ import {withStyles} from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
 
+
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
@@ -65,6 +66,11 @@ class Footer extends Component {
                     </a>
                     <a href="https://www.linkedin.com/in/oleksandr-kostiushko-591677222/">
                       <i className="fa fa-linkedin-square footer-social-icons" aria-hidden="true">
+                        {' '}
+                      </i>
+                    </a>
+                    <a href="https://t.me/A1exKost">
+                    <i className="fa fa-phone-square footer-social-icons" aria-hidden="true">
                         {' '}
                       </i>
                     </a>

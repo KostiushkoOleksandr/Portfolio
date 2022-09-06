@@ -1,18 +1,19 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {withStyles} from 'material-ui/styles';
+import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Button from 'material-ui/Button';
-// import CloudQueue from 'material-ui-icons/CloudQueue';
-import {withRouter} from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 import Hidden from 'material-ui/Hidden';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import Drawer from 'material-ui/Drawer';
-import List, {ListItem} from 'material-ui/List';
+import List, { ListItem } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
+import LaptopChromebookIcon from 'material-ui-icons/LaptopChromebook';
+import './Nav.css';
 
 const styles = theme => ({
   root: {
@@ -21,10 +22,10 @@ const styles = theme => ({
   typography: {
     flex: 1,
   },
-  // CloudQueue: {
-  //   marginLeft: -5,
-  //   marginRight: 20,
-  // }
+  LaptopChromebookIcon: {
+    marginLeft: -5,
+    marginRight: 20,
+  }
 });
 
 class Nav extends Component {
@@ -33,15 +34,15 @@ class Nav extends Component {
   };
 
   handleDrawerOpen = () => {
-    this.setState({open: true});
+    this.setState({ open: true });
   };
 
   handleDrawerClose = () => {
-    this.setState({open: false});
+    this.setState({ open: false });
   };
 
   render() {
-    const {classes} = this.props;
+    const { classes } = this.props;
     return (
       <div className={classes.root}>
         <Hidden mdUp>
@@ -52,10 +53,10 @@ class Nav extends Component {
                 aria-label="open drawer"
                 onClick={this.handleDrawerOpen}
               >
-                <MenuIcon/>
+                <MenuIcon />
               </IconButton>
               <Typography onTouchTap={() => this.props.history.push('/')} type="title" color="inherit"
-                          className={classes.typography}>
+                className={classes.typography}>
                 Олександр Костюшко
               </Typography>
             </Toolbar>
@@ -71,13 +72,13 @@ class Nav extends Component {
                 <ListItem>
                   <Button onTouchTap={() => this.props.history.push('/')} color="inherit">Головна</Button>
                 </ListItem>
-                <Divider/>
+                <Divider />
                 <ListItem>
                   <Button onTouchTap={() => this.props.history.push('/projects')} color="inherit">Роботи</Button>
                 </ListItem>
-                <Divider/>
+                <Divider />
                 <ListItem>
-                  <Button href="https://github.com/zjacek12" color="inherit">Github</Button>
+                  <Button href="https://github.com/KostiushkoOleksandr" color="inherit">Гіт Хаб</Button>
                 </ListItem>
               </List>
             </div>
@@ -86,17 +87,29 @@ class Nav extends Component {
         <Hidden mdDown>
           <AppBar position="static">
             <Toolbar>
-              {/* <CloudQueue className={classes.CloudQueue}/> */}
+              <LaptopChromebookIcon className={classes.LaptopChromebookIcon} />
               <Typography onTouchTap={() => this.props.history.push('/')} type="title" color="inherit"
-                          className={classes.typography}>
+                className={classes.typography}>
                 Олександр Костюшко
               </Typography>
+              {/* <div className='hero'>
+          <div className='static-txt'></div>
+          <ul className='dynamic-txts'>
+            <li><span>По всіх питаннях писати в</span></li>
+            <li><span>Телеграм</span></li>
+            <li><span>На пошту</span></li>
+            <li><span>Та Work.ua</span></li>
+          </ul>
+
+        </div> */}
               <Button onTouchTap={() => this.props.history.push('/')} color="inherit">Головна</Button>
               <Button href="https://github.com/KostiushkoOleksandr" color="inherit">Гіт Хаб</Button>
+
             </Toolbar>
           </AppBar>
         </Hidden>
       </div>
+
     );
   }
 }
@@ -106,4 +119,4 @@ Nav.propTypes = {
   theme: PropTypes.object.isRequired,
 };
 
-export default withRouter(withStyles(styles, {withTheme: true})(Nav));
+export default withRouter(withStyles(styles, { withTheme: true })(Nav));

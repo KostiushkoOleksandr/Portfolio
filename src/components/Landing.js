@@ -10,6 +10,7 @@ import Skills from './Skills';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import './Landing.css';
+import Sidebar from './Sidebar';
 
 const styles = theme => ({
   root: {
@@ -31,6 +32,7 @@ class Landing extends Component {
   render() {
     const {classes} = this.props;
     return (
+      
       <div className={classes.root}>
         <Grid container spacing={24} direction="column" justify="center" alignItems="center">
           <Fade>
