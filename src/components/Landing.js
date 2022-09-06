@@ -10,7 +10,6 @@ import Skills from './Skills';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 import './Landing.css';
-import Sidebar from './Sidebar';
 
 const styles = theme => ({
   root: {
