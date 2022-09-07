@@ -17,7 +17,7 @@ function ProjectCard(props) {
   const {classes} = props;
   return (
     <Grid container spacing={24} alignContent='center' alignItems='center' justify='center'>
-      <Grid item xs={3}>
+      <Grid item xs={7}>
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
@@ -27,20 +27,6 @@ function ProjectCard(props) {
             31.01.2022–25.02.2022<br/>
              Роботу над проектом проводив на посаді front-end програміст, основною 
              задачею було розробка нових блоків та верстка нових сторінок.
-            </Typography>
-          </CardContent>
-        </Card>
-      </Grid>
-      <Grid item xs={3}>
-        <Card className={classes.card}>
-          <CardContent>
-            <Typography type="headline" component="h2">
-            Robocode
-            </Typography>
-            <Typography component="p">
-            2021 – 2021<br/>
-            В компанії Robocode вивчав нейронні мережі, викладав архітектуру комп'ютера.
-            
             </Typography>
           </CardContent>
         </Card>

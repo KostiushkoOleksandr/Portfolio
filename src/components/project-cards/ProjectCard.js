@@ -16,7 +16,7 @@ function ProjectCard(props) {
   const {classes} = props;
   return (
     <Grid container spacing={24} alignContent='center' alignItems='center' justify='center'>
-      <Grid item xs={6}>
+      <Grid item xs={7}>
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
