@@ -39,7 +39,7 @@ class Landing extends Component {
               <img src={require(`../assets/Alex.jpg`)} className={classes.img} alt="Oleksandr.Kostiushko"/>
             </Grid> */}
             <div className="img-wrapper">
-            <img src={require(`../assets/Alex.jpg`)} alt="OleksandrKostiushko"/>
+            <img src={require(`../assets/sasha.jpg`)} alt="OleksandrKostiushko"/>
             </div>
           </Fade>
           <Grid item>
