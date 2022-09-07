@@ -82,11 +82,6 @@ class Footer extends Component {
                   </Typography>
                 </Grid>
                 <Grid item>
-                  <a href="Oleksandr.Kostiushko@oa.edu.ua" className={classes.Typography}>
-                  Oleksandr.Kostiushko.oa.edu.ua
-                  </a>
-                </Grid>
-                <Grid item>
                   
                 </Grid>
               </Grid>

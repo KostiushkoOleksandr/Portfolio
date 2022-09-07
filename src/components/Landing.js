@@ -47,7 +47,7 @@ class Landing extends Component {
               <Typography>.
               </Typography>
               <Typography  align="center" type="display1" gutterBottom>
-              Привіт, я розробник програмного забезпечення, зараз проживаю в Києві.
+              Привіт, я розробник програмного забезпечення.
               </Typography>
             </Slide>
             <Slide left>
