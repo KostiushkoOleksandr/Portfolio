@@ -39,7 +39,7 @@ class Landing extends Component {
               <img src={require(`../assets/Alex.jpg`)} className={classes.img} alt="Oleksandr.Kostiushko"/>
             </Grid> */}
             <div className="img-wrapper">
-            <img src={require(`../assets/sasha.jpg`)} alt="OleksandrKostiushko"/>
+            <img src={require(`../assets/Avatar.jpg`)} alt="OleksandrKostiushko"/>
             </div>
           </Fade>
           <Grid item>
@@ -47,15 +47,15 @@ class Landing extends Component {
               <Typography>.
               </Typography>
               <Typography  align="center" type="display1" gutterBottom>
-              Привіт, я розробник програмного забезпечення.
+              Hi, I'm a software developer
               </Typography>
             </Slide>
             <Slide left>
               <Typography align="center" type="subheading" gutterBottom>
-              Розробник React.js з доведеним досвідом у розробці програмних продуктів.
-              Завжди зосереджений на досягненні цілей та досягнення успіху в швидко розвиваючих та динамічних середовищах.
+              React.js developer with proven experience in software product development.
+              Always focused on achieving goals and achieving success in fast-paced and dynamic environments.
               </Typography>
-              <Typography align="center" type="subheading" paragraph gutterBottom>Стек технологій з якими працюю: React.js,
+              <Typography align="center" type="subheading" paragraph gutterBottom>The stack of technologies I work with: React.js,
                 Node.js,
                 Express і
                 MongoDB.
@@ -80,7 +80,7 @@ class Landing extends Component {
 
         </div> */}
               <Typography type="display1" gutterBottom>
-              Навчання/Досвід
+              Education/Experience
               </Typography>
             </Slide>
           </Grid>
@@ -97,7 +97,7 @@ class Landing extends Component {
           <Grid item>
             <Slide left>
               <Typography type="display1" gutterBottom>
-                Навички
+              Skills
               </Typography>
             </Slide>
           </Grid>

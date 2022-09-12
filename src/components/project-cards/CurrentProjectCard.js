@@ -25,8 +25,7 @@ function ProjectCard(props) {
             </Typography>
             <Typography component="p">
             31.01.2022–25.02.2022<br/>
-             Роботу над проектом проводив на посаді front-end програміст, основною 
-             задачею було розробка нових блоків та верстка нових сторінок.
+            Worked as a front-end programmer, the main task was the development of new blocks and the layout of new pages.
             </Typography>
           </CardContent>
         </Card>

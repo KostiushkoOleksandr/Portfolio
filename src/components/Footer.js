@@ -78,7 +78,7 @@ class Footer extends Component {
                 </Grid>
                 <Grid item>
                   <Typography type="headline" className={classes.Typography}>
-                    Контакти
+                  Contacts
                   </Typography>
                 </Grid>
                 <Grid item>

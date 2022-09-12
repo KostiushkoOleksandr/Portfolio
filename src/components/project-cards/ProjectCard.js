@@ -20,16 +20,16 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            Національний університет «Острозька академія»
+            National University "Ostroh Academy"
             </Typography>
             <Typography component="p">
             2019 – 2023<br/>
-            Економічний факультет, спеціальність «Комп’ютерні науки»
+            Faculty of Economics, "Computer Science" specialty
             </Typography>
             <Typography component="p">
-            Фундаментальна підготовка фахівців у галузі   інформаційних технологій, 
-            що здатні розв’язувати складні спеціалізовані задачі та розробляти і тестувати 
-            високорівневі програмні продукти.
+            Fundamental training of specialists in the field of information technologies,
+             capable of solving complex specialized tasks and developing and testing
+             high-level software products.
             </Typography>
           </CardContent>
         </Card>
