@@ -44,7 +44,8 @@ class Landing extends Component {
           </Fade>
           <Grid item>
             <Slide left>
-              <Typography>.
+              <Typography>
+                  <br/>
               </Typography>
               <Typography  align="center" type="display1" gutterBottom>
               Hi, I'm a web developer
