@@ -22,7 +22,7 @@ class Skills extends React.Component {
   state = {
     chipData: [
       { key: 0, label: 'JavaScript' },
-      { key: 1, label: 'NodeJS' },
+      { key: 1, label: 'Redux' },
       { key: 2, label: 'ReactJS' },
       { key: 3, label: 'MongoDB' },
       { key: 4, label: 'HTML5' },
