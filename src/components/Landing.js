@@ -47,7 +47,7 @@ class Landing extends Component {
               <Typography>.
               </Typography>
               <Typography  align="center" type="display1" gutterBottom>
-              Hi, I'm a software developer
+              Hi, I'm a web developer
               </Typography>
             </Slide>
             <Slide left>
@@ -55,9 +55,8 @@ class Landing extends Component {
               React.js developer with proven experience in software product development.
               Always focused on achieving goals and achieving success in fast-paced and dynamic environments.
               </Typography>
-              <Typography align="center" type="subheading" paragraph gutterBottom>The stack of technologies I work with: React.js,
-                Node.js,
-                Express і
+              <Typography align="center" type="subheading" paragraph gutterBottom>The stack of technologies I work with: React.js, Redux,
+                Express and
                 MongoDB.
               </Typography>
             </Slide>
