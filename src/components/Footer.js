@@ -28,32 +28,12 @@ class Footer extends Component {
             <Grid item xs={4}>
               <Grid container direction="column">
                 <Grid item>
-                  {/* <Typography type='display1' className={classes.Typography}>
-                    Alex Kost
-                  </Typography> */}
-
-                {/* </Grid>
-                <Grid item>
-                  <Typography paragraph className={classes.Typography}>
-                  Я розробник зовнішнього програмного забезпечення.
-                  </Typography>
-                </Grid>
-                <Grid item>
-                  <Typography paragraph className={classes.Typography}>
-                  Цей веб-сайт створено за допомогою компонентів React.js + Material-UI.
-                  </Typography>
-                  {/* <a href=" ">Source Code</a> */}
                 </Grid>
               </Grid>
             </Grid>
             <Grid item xs={3}/>
             <Grid item xs={3}>
               <Grid container direction="column">
-                {/* <Grid item>
-                  <Typography type="headline" className={classes.Typography}>
-                  Соцмережі
-                  </Typography>
-                </Grid> */}
                 <Grid item>
                   <div className="footer-social-networks">
                     <a href="https://www.instagram.com/alexkost_/">
