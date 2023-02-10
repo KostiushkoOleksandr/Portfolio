@@ -160,5 +160,4 @@ HorizontalNonLinearStepper.propTypes = {
   tower: PropTypes.object,
 };
 
-
 export default withStyles(styles, {withTheme: true})(HorizontalNonLinearStepper);
