@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
-import './App.css';
 import 'typeface-roboto';
-import Routes from './components/Routes'
+import Routes from './components/Routes';
 import Reboot from 'material-ui/Reboot';
+
+import './App.css';
 
 const theme = createMuiTheme({
   palette: {
