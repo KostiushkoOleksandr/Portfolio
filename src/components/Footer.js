@@ -3,7 +3,6 @@ import {withStyles} from 'material-ui/styles';
 import Typography from 'material-ui/Typography';
 import Grid from 'material-ui/Grid';
 
-
 const styles = theme => ({
   root: {
     backgroundColor: theme.palette.primary.main,
