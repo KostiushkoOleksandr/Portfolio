@@ -31,6 +31,22 @@ function ProjectCard(props) {
         </Card>
       </Grid>
     </Grid>
+
+<Grid container spacing={24} alignContent='center' alignItems='center' justify='center'>
+      <Grid item xs={7}>
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography type="headline" component="h2">
+            IT HUB React.js developer
+            </Typography>
+            <Typography component="p">
+            31.01.2022–25.02.2022<br/>
+            Worked as a front-end programmer, the main task was the development of new blocks and the layout of new pages.
+            </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
+    </Grid>
     
   );
 }
