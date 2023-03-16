@@ -43,7 +43,6 @@ function ProjectCard(props) {
             </Typography>
           </CardContent>
         </Card>
-      </Grid>
     </Grid>
 
       <Grid item xs={7}>
