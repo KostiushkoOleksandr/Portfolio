@@ -28,7 +28,11 @@ function ProjectCard(props) {
             Worked as a front-end programmer, the main task was the development of new blocks and the layout of new pages.
             </Typography>
           </CardContent>
+        </Card>
+      </Grid>
 
+      <Grid item xs={7}>
+        <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
             IT HUB React.js developer
