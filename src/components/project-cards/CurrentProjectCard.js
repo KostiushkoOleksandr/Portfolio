@@ -52,7 +52,7 @@ function ProjectCard(props) {
             Department of Education (Software Engineer)
             </Typography>
             <Typography component="p">
-            18.02.2023–present<br/>
+            18.02.2023–Now<br/>
             Software Engineer.
             </Typography>
           </CardContent>
