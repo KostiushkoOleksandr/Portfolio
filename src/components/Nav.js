@@ -109,7 +109,6 @@ class Nav extends Component {
                     <i
                       className="fa fa-instagram footer-social-icons"
                       aria-hidden="true"
-                      target="_blank"
                     >
                       {' '}
                     </i>
