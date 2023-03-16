@@ -21,7 +21,7 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            IT HUB React.js developer
+            IT HUB React.js Developer (Intern)
             </Typography>
             <Typography component="p">
             31.01.2022–25.02.2022<br/>
@@ -35,11 +35,26 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            IT HUB React.js developer
+            IT HUB Full Stack Developer (Intern)
             </Typography>
             <Typography component="p">
-            31.01.2022–25.02.2022<br/>
-            Worked as a front-end programmer, the main task was the development of new blocks and the layout of new pages.
+            06.02.2023–06.03.2023<br/>
+            Development of a cloud service for organized data storage.
+            </Typography>
+          </CardContent>
+        </Card>
+      </Grid>
+    </Grid>
+
+      <Grid item xs={7}>
+        <Card className={classes.card}>
+          <CardContent>
+            <Typography type="headline" component="h2">
+            Department of Education (Software Engineer)
+            </Typography>
+            <Typography component="p">
+            18.03.2023–present<br/>
+            Software Engineer.
             </Typography>
           </CardContent>
         </Card>
