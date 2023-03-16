@@ -105,7 +105,7 @@ class Nav extends Component {
               </Typography>
               <Grid item>
                 <div className="footer-social-networks">
-                  <a href="https://www.instagram.com/alexkost_/">
+                  <a href="https://www.instagram.com/alexkost_/" target="_blank">
                     <i
                       className="fa fa-instagram footer-social-icons"
                       aria-hidden="true"
