@@ -21,7 +21,7 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            IT HUB React.js Developer (Intern)
+            IT HUB React.js Developer (Work experience internship)
             </Typography>
             <Typography component="p">
             31.01.2022–25.02.2022<br/>
@@ -35,7 +35,7 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            IT HUB Full Stack Developer (Intern)
+            IT HUB Full Stack Developer (Work experience internship)
             </Typography>
             <Typography component="p">
             06.02.2023–06.03.2023<br/>
