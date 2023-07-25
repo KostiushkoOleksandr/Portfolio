@@ -49,7 +49,7 @@ function ProjectCard(props) {
         <Card className={classes.card}>
           <CardContent>
             <Typography type="headline" component="h2">
-            Department of Education (Software Engineer)
+            Department of Education (Front-end Developer)
             </Typography>
             <Typography component="p">
             18.02.2023–Now<br/>
